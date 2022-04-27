@@ -99,9 +99,13 @@ QQ 邮箱的话也是类似的操作，在 设置 - 账户 中开启后记住授
 
 ### 5 Enable Actions
 
-点到这里来！首先这里会让你 Enable 这个 Repo 的 Workflow；然后可能还需要点到左边 Workflows 下面的 ScoreQuery，点进去以后再 Enable 一遍）
+点到这里来！首先这里会让你 Enable 这个 Repo 的 Workflow：
 
 <img src="README.assets/16E0B535486AA410CBBF3AE0AD62BB66.png" alt="img" style="zoom: 50%;" />
+
+然后还需要点到左边 Workflows 下面的 ScoreQuery，点进去以后再 Enable 一遍：
+
+![img](README.assets/F966209D8458B3F598A8905106284B33.png)
 
 
 

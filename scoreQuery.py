@@ -117,7 +117,7 @@ def sendMsg(newRecords, mailto, mailfrom, key):
     receivers = [mailto]
     
     msg = MIMEText(newRecords, 'plain', 'utf-8')
-    msg['From'] = Header("auto_score_query@163.com")
+    msg['From'] = Header("auto_score_query@xuanInsr")
     msg['To'] = Header(mailto)
     
     subject = '出分啦！'
