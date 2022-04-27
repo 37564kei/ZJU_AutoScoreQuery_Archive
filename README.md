@@ -109,7 +109,21 @@ QQ 邮箱的话也是类似的操作，在 设置 - 账户 中开启后记住授
 
 
 
-### 6 好啦！
+### 6 给 Action 赋予读写权限
+
+（感谢 @Xuer04 发现该问题！）
+
+在 Settings - Actions - General 中：
+
+![image-20220427235004527](README.assets/image-20220427235004527.png)
+
+翻到下面，找到下面的 Workflow permissions，选中 Read and write permissions，然后保存：
+
+![image-20220427235046316](README.assets/image-20220427235046316.png)
+
+
+
+### 7 好啦！
 
 点击你自己仓库的 star（取消然后重新点也可以）就会触发一次操作。每 10 分钟也会自动进行一次查询。你可以在 Actions 中查看是否成功：
 
