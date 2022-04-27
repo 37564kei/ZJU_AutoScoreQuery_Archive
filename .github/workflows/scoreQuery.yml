@@ -5,7 +5,7 @@ on:
         types: started
     schedule:
         # runs every 10 minutes
-        - cron: '0/10 * * * *'
+        - cron: '*/5 * * * *'
         
 jobs:
     ScoreQuery:
