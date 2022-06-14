@@ -209,4 +209,3 @@ if __name__ == "__main__":
         main(username, password, mailto, mailfrom, key)
     except Exception as err:
         print(str(err))
-        exit(1)
