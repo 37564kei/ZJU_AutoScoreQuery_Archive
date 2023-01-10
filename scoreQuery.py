@@ -176,7 +176,7 @@ def main(username, password, mailto, mailfrom, key):
         # first time
         print(str(err))
         print("[!] 此前暂无记录，正在生成首次记录...")
-	for k, v in newData.items():
+        for k, v in newData.items():
             newRecord = "课程名: " + v[0] + " 成绩: " + v[1] + " 学分: " + v[2] + " 绩点: " + v[3]
             newRecords += '\n' + newRecord
             print("    [!] 发现新记录")
