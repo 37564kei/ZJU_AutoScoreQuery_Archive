@@ -170,7 +170,7 @@ def main(username, password, mailto, mailfrom, key):
             if str(myHash(k)) not in records:
                 newRecord = "课程名: " + v[0] + " 成绩: " + v[1] + " 学分: " + v[2] + " 绩点: " + v[3]
                 newRecords += '\n' + newRecord
-                print("    [!] 发现新记录: " + newRecord)
+                print("    [!] 发现新记录: ")
         print("> 对比结束")
     except Exception as err:
         # first time
